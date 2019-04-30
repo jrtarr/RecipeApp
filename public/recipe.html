@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Recipe App</title>
+</head>
+<body>
+    <h1 id='recipe-title'></h1>
+    <button id="save">Return</button>
+    <div id="container">
+        <input type="text" id="edit-title" placeholder="Edit Title">
+
+        <div id="steps-container">
+            <ol id="steps-list"></ol>
+            <button id="add-step">Add New Step</button>
+        </div>
+
+        <div id="ingredient-container">
+            <ul id="ingredient-list"></ul>
+            <form id="add-ingredient">
+                <input type="text" name="ingredient">
+                <button>Add Ingredient</button>
+            </form>
+        </div>
+
+    </div>
+    <script src='scripts/recipe-bundle.js'></script>
+</body>
+</html>
